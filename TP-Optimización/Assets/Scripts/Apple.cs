@@ -15,6 +15,7 @@ public class Apple : MonoBehaviour
         if (currentLifeTime < 0)
         {
             gameObject.SetActive(false);
+            
         }
     }
 
