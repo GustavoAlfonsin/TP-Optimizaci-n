@@ -1,0 +1,48 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ControladorTiempo : MonoBehaviour
+{
+    [SerializeField]
+    [Range(0.0f, 24f)] private float Hora = 12;
+    [SerializeField] private Transform _sol;
+    public float duracionDelDiaEnMinutos = 1;
+    public Color nightFogColor;
+
+    private float solX;
+
+    private void Start()
+    {
+        
+    }
+
+    private void Update()
+    {
+        Hora += Time.deltaTime * (24 / (60 * duracionDelDiaEnMinutos));
+        
+        if (Hora >= 24)
+        {
+            Hora = 0;
+        }
+        rotacionSol();
+    }
+
+    private void rotacionSol()
+    {
+        solX = 15 * Hora;
+        _sol.localEulerAngles = new Vector3(solX,0,0);
+
+        if (Hora <= 6 || Hora > 18)
+        {
+            _sol.GetComponent<Light>().intensity = 0;
+            RenderSettings.fog = true;
+            RenderSettings.fogColor = nightFogColor;
+        }
+        else
+        {
+            _sol.GetComponent<Light>().intensity = 1;
+            RenderSettings.fog = false;
+        }
+    }
+}
