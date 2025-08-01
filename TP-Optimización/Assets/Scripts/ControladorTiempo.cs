@@ -8,18 +8,35 @@ public class ControladorTiempo : MonoBehaviour
     [Range(0.0f, 24f)] private float Hora = 12;
     [SerializeField] private Transform _sol;
     public float duracionDelDiaEnMinutos = 1;
+    public float duracionDeLaNocheEnMinutos = 1;
     public Color nightFogColor;
 
     private float solX;
 
+    private bool esDeNoche;
+    public bool EsDeNoche
+    {
+        get { return esDeNoche; }
+    }
+
+
     private void Start()
     {
-        
+        esDeNoche = Hora > 18 || Hora <= 6;
     }
 
     private void Update()
     {
-        Hora += Time.deltaTime * (24 / (60 * duracionDelDiaEnMinutos));
+        esDeNoche = Hora > 19 || Hora <= 6;
+        if (esDeNoche)
+        {
+            Hora += Time.deltaTime * (24 / (60 * duracionDeLaNocheEnMinutos));
+        }
+        else
+        {
+            Hora += Time.deltaTime * (24 / (60 * duracionDelDiaEnMinutos));
+        }
+        
         
         if (Hora >= 24)
         {
@@ -33,7 +50,7 @@ public class ControladorTiempo : MonoBehaviour
         solX = 15 * Hora;
         _sol.localEulerAngles = new Vector3(solX,0,0);
 
-        if (Hora <= 6 || Hora > 18)
+        if (Hora <= 6 || Hora > 19)
         {
             _sol.GetComponent<Light>().intensity = 0;
             RenderSettings.fog = true;

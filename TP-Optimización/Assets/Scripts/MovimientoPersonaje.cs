@@ -10,6 +10,7 @@ public class MovimientoPersonaje : MonoBehaviour
     [SerializeField] private CharacterController _chController;
     [SerializeField] private Transform trPersonaje;
     [SerializeField] private Camera _camaraPersonaje;
+    [SerializeField] private Light _linterna;
 
     private Vector3 movimiento;
     private float rotacionX;
@@ -17,12 +18,14 @@ public class MovimientoPersonaje : MonoBehaviour
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
+        _linterna.enabled = false;
     }
 
     private void Update()
     {
         MovimientoDelPersonaje();
         MovimientoDeCamara();
+        prenderYApagarLinterna();
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
@@ -49,5 +52,20 @@ public class MovimientoPersonaje : MonoBehaviour
 
         _camaraPersonaje.transform.localRotation = Quaternion.Euler(rotacionX,0,0);
         trPersonaje.Rotate(Vector3.up * ratonX);
+    }
+
+    private void prenderYApagarLinterna()
+    {
+        if (Input.GetKeyDown(KeyCode.Mouse1))
+        {
+            if (_linterna.enabled)
+            {
+                _linterna.enabled = false;
+            }
+            else
+            {
+                _linterna.enabled = true;
+            }
+        }
     }
 }
