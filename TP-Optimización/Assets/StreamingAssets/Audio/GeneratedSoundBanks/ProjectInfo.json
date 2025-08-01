@@ -1,0 +1,36 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "TP-Optimización_WwiseProject",
+   "GUID": "{B7617762-1889-49C0-988A-D046BDC009D1}",
+   "Generator": "2024.1.6.8842"
+  },
+  "CacheRoot": "../../../../TP-Optimización_WwiseProject/.cache",
+  "Platforms": [
+   {
+    "Name": "Mac",
+    "GUID": "{F964A2D9-2BFD-49A4-AD43-3E26DFAE36F8}",
+    "BasePlatform": "Mac",
+    "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
+    "Path": "../../../../TP-Optimización_WwiseProject/GeneratedSoundBanks/Mac"
+   },
+   {
+    "Name": "Windows",
+    "GUID": "{03368232-C013-4BE1-9A3D-0DAC0ECD38D2}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "../../../../TP-Optimización_WwiseProject/GeneratedSoundBanks/Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{13791B44-5810-45FC-BA44-B3B599720AED}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{7E8EE753-239D-1648-62E9-B24B63B8A42F}"
+ }
+}
