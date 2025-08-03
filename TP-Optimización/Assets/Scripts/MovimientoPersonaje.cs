@@ -12,6 +12,9 @@ public class MovimientoPersonaje : MonoBehaviour
     [SerializeField] private Camera _camaraPersonaje;
     [SerializeField] private Light _linterna;
 
+    [SerializeField] private AK.Wwise.Event footstepEvent;
+    public float stepInterval = 0.4f;
+    private float stepTimer = 0;
     private Vector3 movimiento;
     private float rotacionX;
 
@@ -40,6 +43,20 @@ public class MovimientoPersonaje : MonoBehaviour
 
         movimiento = transform.right * movX + transform.forward * movZ;
         _chController.SimpleMove(movimiento * velocidadMovimiento);
+        if (movimiento.magnitude > 0.1f && _chController.isGrounded)
+        {
+            stepTimer += Time.deltaTime;
+            if (stepTimer >= stepInterval)
+            {
+                footstepEvent.Post(gameObject);
+                stepTimer = 0;
+            }
+        }
+        else
+        {
+            stepTimer = 0;
+        }
+       
     }
 
     private void MovimientoDeCamara()

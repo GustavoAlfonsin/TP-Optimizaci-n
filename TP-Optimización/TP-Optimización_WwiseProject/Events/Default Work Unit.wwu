@@ -1,6 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{ACE6D281-052B-4D28-A8FC-4C6F4A717AC7}" SchemaVersion="123">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{ACE6D281-052B-4D28-A8FC-4C6F4A717AC7}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{ACE6D281-052B-4D28-A8FC-4C6F4A717AC7}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="MusicaDeFondo" ID="{E1B8F911-70E2-4C68-A6EC-07E49361CED7}">
+					<ChildrenList>
+						<Action Name="" ID="{A4F3BFA8-2B25-4922-A967-16161239718D}" ShortID="586501149">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Morning Exploring Loop" ID="{35A4D92B-9348-446F-BEF9-A12C7153A107}" WorkUnitID="{CC4C47A2-BEBA-4B91-AA7B-37424039D859}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Caminar" ID="{B612FB4D-5FA8-4771-8BDF-AA555F0A7AED}">
+					<ChildrenList>
+						<Action Name="" ID="{AC44F206-B732-4D46-8A9F-1CBA60ADEB67}" ShortID="601516339">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pasos" ID="{F62D20E9-9BFB-426E-B809-7E3EB7F82250}" WorkUnitID="{CC4C47A2-BEBA-4B91-AA7B-37424039D859}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MusicaFondoStop" ID="{A51AF094-D92D-41C3-9467-09E91529A331}">
+					<ChildrenList>
+						<Action Name="" ID="{D928FE89-7B64-40B3-B439-228A79E0D9A5}" ShortID="171364200">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Morning Exploring Loop" ID="{35A4D92B-9348-446F-BEF9-A12C7153A107}" WorkUnitID="{CC4C47A2-BEBA-4B91-AA7B-37424039D859}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

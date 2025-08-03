@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: a46866f258e7254789d797d615a35267
     GuidInternal: 
-    m_lastTime: -8584475183501495219
+    m_lastTime: -8584473494164528519
     List:
     - name: ProyectoAudio
       guid: 06020ef99c56a247a55ae89c9d01c494
@@ -94,8 +94,59 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 81d2e6ac2b05284da8fc4c6f4a717ac7
     GuidInternal: 
-    m_lastTime: -8584475206999150239
-    List: []
+    m_lastTime: -8584473494164378189
+    List:
+    - name: Caminar
+      guid: 4dfb12b6a85f71478bdfaa555f0a7aed
+      id: 621083434
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 81d2e6ac2b05284da8fc4c6f4a717ac7
+      - ElementName: Caminar
+        ObjectType: 3
+        guid: 4dfb12b6a85f71478bdfaa555f0a7aed
+      Path: Events\Default Work Unit\Caminar
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: MusicaDeFondo
+      guid: 11f9b8e1e270684ca6ec07e49361ced7
+      id: 1677052056
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 81d2e6ac2b05284da8fc4c6f4a717ac7
+      - ElementName: MusicaDeFondo
+        ObjectType: 3
+        guid: 11f9b8e1e270684ca6ec07e49361ced7
+      Path: Events\Default Work Unit\MusicaDeFondo
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: MusicaFondoStop
+      guid: 94f01aa52dd9c341946709e91529a331
+      id: 2103939707
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 81d2e6ac2b05284da8fc4c6f4a717ac7
+      - ElementName: MusicaFondoStop
+        ObjectType: 3
+        guid: 94f01aa52dd9c341946709e91529a331
+      Path: Events\Default Work Unit\MusicaFondoStop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -153,7 +204,7 @@ MonoBehaviour:
     m_lastTime: -8584475206998669451
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 090000000a000000
+  ExpandedWaapiItemIds: 05000000060000000700000009000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -18,16 +18,37 @@ public class ControladorTiempo : MonoBehaviour
     {
         get { return esDeNoche; }
     }
+    private bool estadoAnterior;
+    public AK.Wwise.Event playMusicEvent;
+    public AK.Wwise.Event stopMusicEvent;
 
 
     private void Start()
     {
         esDeNoche = Hora > 18 || Hora <= 6;
+        estadoAnterior = esDeNoche;
+        if (!esDeNoche)
+            playMusicEvent.Post(gameObject);
     }
 
     private void Update()
     {
         esDeNoche = Hora > 19 || Hora <= 6;
+        if (esDeNoche != estadoAnterior)
+        {
+            if (esDeNoche)
+            {
+                stopMusicEvent.Post(gameObject);
+            }
+            else
+            {
+                playMusicEvent.Post(gameObject);
+            }
+
+            // Guardamos el nuevo estado
+            estadoAnterior = esDeNoche;
+        }
+
         if (esDeNoche)
         {
             Hora += Time.deltaTime * (24 / (60 * duracionDeLaNocheEnMinutos));
@@ -36,8 +57,7 @@ public class ControladorTiempo : MonoBehaviour
         {
             Hora += Time.deltaTime * (24 / (60 * duracionDelDiaEnMinutos));
         }
-        
-        
+
         if (Hora >= 24)
         {
             Hora = 0;

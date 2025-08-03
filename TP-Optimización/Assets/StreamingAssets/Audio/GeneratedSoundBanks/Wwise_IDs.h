@@ -11,6 +11,13 @@
 
 namespace AK
 {
+    namespace EVENTS
+    {
+        static const AkUniqueID CAMINAR = 621083434U;
+        static const AkUniqueID MUSICADEFONDO = 1677052056U;
+        static const AkUniqueID MUSICAFONDOSTOP = 2103939707U;
+    } // namespace EVENTS
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;

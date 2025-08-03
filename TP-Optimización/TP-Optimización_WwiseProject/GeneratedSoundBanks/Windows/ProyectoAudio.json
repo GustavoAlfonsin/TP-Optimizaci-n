@@ -10,12 +10,167 @@
     "Type": "User",
     "GUID": "{F90E0206-569C-47A2-A55A-E89C9D01C494}",
     "Language": "SFX",
-    "Hash": "{885FE587-D639-BD4C-D0F1-8441DD3FB78D}",
+    "Hash": "{2D40C38C-A9DD-5BC3-A65D-68821B240D31}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\ProyectoAudio",
     "ShortName": "ProyectoAudio",
-    "Path": "ProyectoAudio.bnk"
+    "Path": "ProyectoAudio.bnk",
+    "Media": [
+     {
+      "Id": "4786707",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps_DirtyGround_Walk_08.wav",
+      "CachePath": "8C/{8C910A77-5401-D538-D374-377CC7794746}.wem"
+     },
+     {
+      "Id": "34503492",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps_DirtyGround_Walk_03.wav",
+      "CachePath": "8D/{8D97C2B3-9C28-4D16-F66B-BB9CAA5CC55F}.wem"
+     },
+     {
+      "Id": "37204035",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps_DirtyGround_Walk_02.wav",
+      "CachePath": "A0/{A00F36F3-B2D9-47E3-DC2D-B88186DB1FD4}.wem"
+     },
+     {
+      "Id": "87833451",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps_DirtyGround_Walk_04.wav",
+      "CachePath": "4F/{4F8F87BE-3A94-825C-9AD6-9A6F850BE445}.wem"
+     },
+     {
+      "Id": "326648028",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Morning Exploring Loop.wav",
+      "CachePath": "80/{80755628-6737-3417-EEAA-399798E10629}.wem"
+     },
+     {
+      "Id": "333390971",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps_DirtyGround_Walk_10.wav",
+      "CachePath": "7F/{7FBF178A-F120-A10B-390C-F34C080A5170}.wem"
+     },
+     {
+      "Id": "685097410",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps_DirtyGround_Walk_09.wav",
+      "CachePath": "32/{32264299-D222-83E2-D560-E5F2A9E7C499}.wem"
+     },
+     {
+      "Id": "776075870",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps_DirtyGround_Walk_06.wav",
+      "CachePath": "A5/{A522A4CC-F721-E56C-9BE1-32B97C97927B}.wem"
+     },
+     {
+      "Id": "878090387",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps_DirtyGround_Walk_01.wav",
+      "CachePath": "2E/{2ED3AD2C-4A5F-6F8A-DF07-476B5ED7706B}.wem"
+     },
+     {
+      "Id": "958105811",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps_DirtyGround_Walk_05.wav",
+      "CachePath": "57/{5702C143-E436-9C29-FB18-017A3B0F9923}.wem"
+     },
+     {
+      "Id": "1069292324",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps_DirtyGround_Walk_07.wav",
+      "CachePath": "D0/{D0310A46-2D58-6CFD-440A-0E3010A1A8B9}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "621083434",
+      "Name": "Caminar",
+      "ObjectPath": "\\Events\\Default Work Unit\\Caminar",
+      "GUID": "{B612FB4D-5FA8-4771-8BDF-AA555F0A7AED}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.3445",
+      "DurationMax": "0.4835",
+      "MediaRefs": [
+       {
+        "Id": "4786707"
+       },
+       {
+        "Id": "34503492"
+       },
+       {
+        "Id": "37204035"
+       },
+       {
+        "Id": "87833451"
+       },
+       {
+        "Id": "333390971"
+       },
+       {
+        "Id": "685097410"
+       },
+       {
+        "Id": "776075870"
+       },
+       {
+        "Id": "878090387"
+       },
+       {
+        "Id": "958105811"
+       },
+       {
+        "Id": "1069292324"
+       }
+      ]
+     },
+     {
+      "Id": "1677052056",
+      "Name": "MusicaDeFondo",
+      "ObjectPath": "\\Events\\Default Work Unit\\MusicaDeFondo",
+      "GUID": "{E1B8F911-70E2-4C68-A6EC-07E49361CED7}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "326648028"
+       }
+      ]
+     },
+     {
+      "Id": "2103939707",
+      "Name": "MusicaFondoStop",
+      "ObjectPath": "\\Events\\Default Work Unit\\MusicaFondoStop",
+      "GUID": "{A51AF094-D92D-41C3-9467-09E91529A331}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
    }
   ],
-  "FileHash": "{DC1FCB98-3BC4-0CC9-FBF4-E620BACCCA9C}"
+  "FileHash": "{BFB7E4B5-7B89-5083-35C9-6C506F810BC3}"
  }
 }

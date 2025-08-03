@@ -4,7 +4,11 @@
 		<WorkUnit Name="Default Work Unit" ID="{F26668A4-E758-4725-89D7-97D615A35267}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="ProyectoAudio" ID="{F90E0206-569C-47A2-A55A-E89C9D01C494}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="MusicaFondoStop" ID="{A51AF094-D92D-41C3-9467-09E91529A331}" WorkUnitID="{ACE6D281-052B-4D28-A8FC-4C6F4A717AC7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Caminar" ID="{B612FB4D-5FA8-4771-8BDF-AA555F0A7AED}" WorkUnitID="{ACE6D281-052B-4D28-A8FC-4C6F4A717AC7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MusicaDeFondo" ID="{E1B8F911-70E2-4C68-A6EC-07E49361CED7}" WorkUnitID="{ACE6D281-052B-4D28-A8FC-4C6F4A717AC7}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

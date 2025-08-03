@@ -124,69 +124,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &159962413
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 159962415}
-  - component: {fileID: 159962414}
-  - component: {fileID: 159962416}
-  m_Layer: 0
-  m_Name: ObjectPooling
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &159962414
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 159962413}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a0bd17c5205c6f43b6ded5145457087, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  applesInPool: []
-  cantidad: 10
-  apple: {fileID: 7569223099572170668, guid: 79a077f7dae22254280a7ea8c2200dbd, type: 3}
---- !u!4 &159962415
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 159962413}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 375.75052, y: -63.889706, z: 624}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &159962416
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 159962413}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e796b440e5e72543bbc0cff6f7befa1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentTime: 0
-  spawnTime: 3
-  spawnRadio: 5
 --- !u!1 &238572769
 GameObject:
   m_ObjectHideFlags: 0
@@ -510,6 +447,16 @@ MonoBehaviour:
   duracionDelDiaEnMinutos: 1
   duracionDeLaNocheEnMinutos: 1
   nightFogColor: {r: 0, g: 0, b: 0, a: 0}
+  playMusicEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 6227866b958ca5d459b2b470d5292315,
+      type: 2}
+  stopMusicEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: fe5e48e974669014cae8062ffbb17694,
+      type: 2}
 --- !u!4 &388333582
 Transform:
   m_ObjectHideFlags: 0
@@ -768,6 +715,12 @@ MonoBehaviour:
   trPersonaje: {fileID: 1078967467}
   _camaraPersonaje: {fileID: 330585545}
   _linterna: {fileID: 238572772}
+  footstepEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a874fce1d59b99f4190f8af17f56728c,
+      type: 2}
+  stepInterval: 0.4
 --- !u!143 &1078967463
 CharacterController:
   m_ObjectHideFlags: 0
@@ -981,6 +934,5 @@ SceneRoots:
   m_Roots:
   - {fileID: 388333582}
   - {fileID: 1370604759}
-  - {fileID: 159962415}
   - {fileID: 1078967467}
   - {fileID: 984693519}
