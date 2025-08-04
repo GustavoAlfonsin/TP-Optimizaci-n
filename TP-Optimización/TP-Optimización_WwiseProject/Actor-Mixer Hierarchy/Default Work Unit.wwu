@@ -467,6 +467,139 @@
 						<ActiveSource Name="Ambiance_Forest_Birds_Loop_Stereo" ID="{DE56A476-AEAA-4EE9-95FE-A0DDBB61F8B4}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<RandomSequenceContainer Name="SonidosAterradores" ID="{22231BAE-737E-416A-9D01-B46722FCA33A}" ShortID="802959132">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{8CAD7DA6-1F1D-4D29-811A-95BB0DBF7CE6}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="10"/>
+											<Property Name="Min" Type="Real64" Value="-10"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C20A1B4-79FF-47B0-B924-D1265ACCC130}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48D23C9E-3C89-4E77-892F-DA38572B30E5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Misc_breath" ID="{AFDEC86C-0872-43EB-A7DB-6AB037E60F68}" ShortID="404817491">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C20A1B4-79FF-47B0-B924-D1265ACCC130}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48D23C9E-3C89-4E77-892F-DA38572B30E5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Misc_breath" ID="{562E59BE-A97F-42AB-B9AC-806134F9B128}">
+									<Language>SFX</Language>
+									<AudioFile>Misc_breath.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="927051049"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Misc_breath" ID="{562E59BE-A97F-42AB-B9AC-806134F9B128}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Misc_Laugh" ID="{5625149A-7581-41A1-BFA1-C33594BA256D}" ShortID="454962773">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C20A1B4-79FF-47B0-B924-D1265ACCC130}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48D23C9E-3C89-4E77-892F-DA38572B30E5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Misc_Laugh" ID="{29A2E7FC-C83E-4692-89C4-40E71805F518}">
+									<Language>SFX</Language>
+									<AudioFile>Misc_Laugh.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="105325526"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Misc_Laugh" ID="{29A2E7FC-C83E-4692-89C4-40E71805F518}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Misc_Shh" ID="{4447EA32-A86D-48D8-9748-328C03E475D7}" ShortID="341306595">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C20A1B4-79FF-47B0-B924-D1265ACCC130}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48D23C9E-3C89-4E77-892F-DA38572B30E5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Misc_Shh" ID="{E2EEBB0F-E33D-41BF-AF99-3AC8489B2E5D}">
+									<Language>SFX</Language>
+									<AudioFile>Misc_Shh.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="488232439"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Misc_Shh" ID="{E2EEBB0F-E33D-41BF-AF99-3AC8489B2E5D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{BEB73FF8-1EE5-4929-8C16-43E29C75E267}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="0.258732212160417"/>
+								<Property Name="PanY" Type="Real64" Value="-1.6597510373444"/>
+							</PropertyList>
+						</Panner>
+						<Position Name="" ID="{8F86B1FD-6312-40F9-A223-85B57DC629BB}"/>
+					</PositioningInfo>
+				</RandomSequenceContainer>
+				<Sound Name="AmbientNatureOutside" ID="{F6A37277-AE04-4A7C-B767-72EC617CEB0A}" ShortID="986623039">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C20A1B4-79FF-47B0-B924-D1265ACCC130}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48D23C9E-3C89-4E77-892F-DA38572B30E5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="AmbientNatureOutside" ID="{4B47C534-1DEC-4A17-A454-68A5AE4A00A2}">
+							<Language>SFX</Language>
+							<AudioFile>AmbientNatureOutside.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="971853723"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="AmbientNatureOutside" ID="{4B47C534-1DEC-4A17-A454-68A5AE4A00A2}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

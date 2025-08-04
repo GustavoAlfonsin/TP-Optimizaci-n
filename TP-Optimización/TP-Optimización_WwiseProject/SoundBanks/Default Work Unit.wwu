@@ -10,6 +10,8 @@
 						<ObjectRef Name="Encender_Apagar_Linterna" ID="{00B9F57A-6973-44C5-8566-34F12274F1E6}" WorkUnitID="{ACE6D281-052B-4D28-A8FC-4C6F4A717AC7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Caminar" ID="{B612FB4D-5FA8-4771-8BDF-AA555F0A7AED}" WorkUnitID="{ACE6D281-052B-4D28-A8FC-4C6F4A717AC7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_pajaros" ID="{8FA496D4-D339-4A98-AFC2-86779A0138F1}" WorkUnitID="{ACE6D281-052B-4D28-A8FC-4C6F4A717AC7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_sustos" ID="{F4DE7ED7-77B5-4C01-A22D-6F622A703293}" WorkUnitID="{ACE6D281-052B-4D28-A8FC-4C6F4A717AC7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_sustos" ID="{3BB2C3C6-6DA3-4C16-91EE-2AE587BE00CE}" WorkUnitID="{ACE6D281-052B-4D28-A8FC-4C6F4A717AC7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MusicaDeFondo" ID="{E1B8F911-70E2-4C68-A6EC-07E49361CED7}" WorkUnitID="{ACE6D281-052B-4D28-A8FC-4C6F4A717AC7}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

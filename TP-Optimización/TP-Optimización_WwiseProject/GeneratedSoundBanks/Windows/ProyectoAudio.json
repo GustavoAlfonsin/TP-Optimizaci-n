@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{F90E0206-569C-47A2-A55A-E89C9D01C494}",
     "Language": "SFX",
-    "Hash": "{CC584570-0785-DE08-FDCE-3847134D61E9}",
+    "Hash": "{FC861278-1EAC-1D24-1C29-930A3E504BA7}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\ProyectoAudio",
     "ShortName": "ProyectoAudio",
     "Path": "ProyectoAudio.bnk",
@@ -48,6 +48,14 @@
       "CachePath": "4F/{4F8F87BE-3A94-825C-9AD6-9A6F850BE445}.wem"
      },
      {
+      "Id": "105325526",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Misc_Laugh.wav",
+      "CachePath": "AF/{AFE4AA4B-C6B8-EE2C-034B-FDCC88F1289A}.wem"
+     },
+     {
       "Id": "189913512",
       "Language": "SFX",
       "Streaming": "false",
@@ -70,6 +78,14 @@
       "Location": "Memory",
       "ShortName": "Footsteps_DirtyGround_Walk_10.wav",
       "CachePath": "7F/{7FBF178A-F120-A10B-390C-F34C080A5170}.wem"
+     },
+     {
+      "Id": "488232439",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Misc_Shh.wav",
+      "CachePath": "B5/{B52766A7-0FB4-DA4C-1E72-E23155AD5B68}.wem"
      },
      {
       "Id": "685097410",
@@ -104,12 +120,28 @@
       "CachePath": "2E/{2ED3AD2C-4A5F-6F8A-DF07-476B5ED7706B}.wem"
      },
      {
+      "Id": "927051049",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Misc_breath.wav",
+      "CachePath": "A8/{A881CD89-76AD-E668-52DB-7B79B43F8C74}.wem"
+     },
+     {
       "Id": "958105811",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps_DirtyGround_Walk_05.wav",
       "CachePath": "57/{5702C143-E436-9C29-FB18-017A3B0F9923}.wem"
+     },
+     {
+      "Id": "971853723",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AmbientNatureOutside.wav",
+      "CachePath": "07/{0780CED5-F078-73E6-4EDA-63C40D38A02E}.wem"
      },
      {
       "Id": "1069292324",
@@ -185,6 +217,9 @@
       "MediaRefs": [
        {
         "Id": "326648028"
+       },
+       {
+        "Id": "971853723"
        }
       ]
      },
@@ -212,6 +247,26 @@
       ]
      },
      {
+      "Id": "3927230193",
+      "Name": "Play_sustos",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_sustos",
+      "GUID": "{F4DE7ED7-77B5-4C01-A22D-6F622A703293}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.1250114",
+      "DurationMax": "8",
+      "MediaRefs": [
+       {
+        "Id": "105325526"
+       },
+       {
+        "Id": "488232439"
+       },
+       {
+        "Id": "927051049"
+       }
+      ]
+     },
+     {
       "Id": "315820938",
       "Name": "Stop_pajaros",
       "ObjectPath": "\\Events\\Default Work Unit\\Stop_pajaros",
@@ -220,10 +275,20 @@
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
+     },
+     {
+      "Id": "1791125631",
+      "Name": "Stop_sustos",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_sustos",
+      "GUID": "{3BB2C3C6-6DA3-4C16-91EE-2AE587BE00CE}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ]
    }
   ],
-  "FileHash": "{E56D45CE-1ED6-438C-4ED5-B831890D4712}"
+  "FileHash": "{C553E771-9FC2-523F-0E1A-9B862697695B}"
  }
 }

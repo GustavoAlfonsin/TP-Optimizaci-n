@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: a46866f258e7254789d797d615a35267
     GuidInternal: 
-    m_lastTime: -8584473382258867900
+    m_lastTime: -8584472748438196048
     List:
     - name: ProyectoAudio
       guid: 06020ef99c56a247a55ae89c9d01c494
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 81d2e6ac2b05284da8fc4c6f4a717ac7
     GuidInternal: 
-    m_lastTime: -8584473382258291689
+    m_lastTime: -8584472729676346536
     List:
     - name: Caminar
       guid: 4dfb12b6a85f71478bdfaa555f0a7aed
@@ -181,6 +181,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_sustos
+      guid: d77edef4b577014ca22d6f622a703293
+      id: 3927230193
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 81d2e6ac2b05284da8fc4c6f4a717ac7
+      - ElementName: Play_sustos
+        ObjectType: 3
+        guid: d77edef4b577014ca22d6f622a703293
+      Path: Events\Default Work Unit\Play_sustos
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Stop_pajaros
       guid: 1a8885c5a939f340bfabacfa8725da3b
       id: 315820938
@@ -195,6 +212,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: 1a8885c5a939f340bfabacfa8725da3b
       Path: Events\Default Work Unit\Stop_pajaros
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_sustos
+      guid: c6c3b23ba36d164c91ee2ae587be00ce
+      id: 1791125631
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 81d2e6ac2b05284da8fc4c6f4a717ac7
+      - ElementName: Stop_sustos
+        ObjectType: 3
+        guid: c6c3b23ba36d164c91ee2ae587be00ce
+      Path: Events\Default Work Unit\Stop_sustos
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -255,7 +289,7 @@ MonoBehaviour:
     m_lastTime: -8584475206998669451
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 050000000600000007000000090000000d000000
+  ExpandedWaapiItemIds: 050000000600000007000000090000000d00000022000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
