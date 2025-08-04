@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{F90E0206-569C-47A2-A55A-E89C9D01C494}",
     "Language": "SFX",
-    "Hash": "{2D40C38C-A9DD-5BC3-A65D-68821B240D31}",
+    "Hash": "{CC584570-0785-DE08-FDCE-3847134D61E9}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\ProyectoAudio",
     "ShortName": "ProyectoAudio",
     "Path": "ProyectoAudio.bnk",
@@ -48,6 +48,14 @@
       "CachePath": "4F/{4F8F87BE-3A94-825C-9AD6-9A6F850BE445}.wem"
      },
      {
+      "Id": "189913512",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Click_023.wav",
+      "CachePath": "E5/{E5FB8203-09FA-EC51-635D-AC4A478C8E0F}.wem"
+     },
+     {
       "Id": "326648028",
       "Language": "SFX",
       "Streaming": "false",
@@ -78,6 +86,14 @@
       "Location": "Memory",
       "ShortName": "Footsteps_DirtyGround_Walk_06.wav",
       "CachePath": "A5/{A522A4CC-F721-E56C-9BE1-32B97C97927B}.wem"
+     },
+     {
+      "Id": "809223583",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambiance_Forest_Birds_Loop_Stereo.wav",
+      "CachePath": "E3/{E3E099A8-B91F-F2D9-1BC7-47F841D0E3BE}.wem"
      },
      {
       "Id": "878090387",
@@ -147,6 +163,20 @@
       ]
      },
      {
+      "Id": "965259714",
+      "Name": "Encender_Apagar_Linterna",
+      "ObjectPath": "\\Events\\Default Work Unit\\Encender_Apagar_Linterna",
+      "GUID": "{00B9F57A-6973-44C5-8566-34F12274F1E6}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.24278912",
+      "DurationMax": "0.24278912",
+      "MediaRefs": [
+       {
+        "Id": "189913512"
+       }
+      ]
+     },
+     {
       "Id": "1677052056",
       "Name": "MusicaDeFondo",
       "ObjectPath": "\\Events\\Default Work Unit\\MusicaDeFondo",
@@ -167,10 +197,33 @@
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
+     },
+     {
+      "Id": "439637824",
+      "Name": "Play_pajaros",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_pajaros",
+      "GUID": "{8FA496D4-D339-4A98-AFC2-86779A0138F1}",
+      "MaxAttenuation": "25",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "809223583"
+       }
+      ]
+     },
+     {
+      "Id": "315820938",
+      "Name": "Stop_pajaros",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_pajaros",
+      "GUID": "{C585881A-39A9-40F3-BFAB-ACFA8725DA3B}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ]
    }
   ],
-  "FileHash": "{BFB7E4B5-7B89-5083-35C9-6C506F810BC3}"
+  "FileHash": "{E56D45CE-1ED6-438C-4ED5-B831890D4712}"
  }
 }

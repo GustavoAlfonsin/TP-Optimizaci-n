@@ -1,5 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
+	315820938	Stop_pajaros			\Default Work Unit\Stop_pajaros	
+	439637824	Play_pajaros			\Default Work Unit\Play_pajaros	
 	621083434	Caminar			\Default Work Unit\Caminar	
+	965259714	Encender_Apagar_Linterna			\Default Work Unit\Encender_Apagar_Linterna	
 	1677052056	MusicaDeFondo			\Default Work Unit\MusicaDeFondo	
 	2103939707	MusicaFondoStop			\Default Work Unit\MusicaFondoStop	
 
@@ -8,10 +11,12 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	34503492	Footsteps_DirtyGround_Walk_03	C:\Users\Gustavo\Desktop\TP-Optimizaci-n\TP-Optimización\TP-Optimización_WwiseProject\.cache\8D\{8D97C2B3-9C28-4D16-F66B-BB9CAA5CC55F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Footsteps_DirtyGround_Walk_03		37510
 	37204035	Footsteps_DirtyGround_Walk_02	C:\Users\Gustavo\Desktop\TP-Optimizaci-n\TP-Optimización\TP-Optimización_WwiseProject\.cache\A0\{A00F36F3-B2D9-47E3-DC2D-B88186DB1FD4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Footsteps_DirtyGround_Walk_02		33168
 	87833451	Footsteps_DirtyGround_Walk_04	C:\Users\Gustavo\Desktop\TP-Optimizaci-n\TP-Optimización\TP-Optimización_WwiseProject\.cache\4F\{4F8F87BE-3A94-825C-9AD6-9A6F850BE445}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Footsteps_DirtyGround_Walk_04		38550
+	189913512	Click_023	C:\Users\Gustavo\Desktop\TP-Optimizaci-n\TP-Optimización\TP-Optimización_WwiseProject\.cache\E5\{E5FB8203-09FA-EC51-635D-AC4A478C8E0F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Click_023		42924
 	326648028	Morning Exploring Loop	C:\Users\Gustavo\Desktop\TP-Optimizaci-n\TP-Optimización\TP-Optimización_WwiseProject\.cache\80\{80755628-6737-3417-EEAA-399798E10629}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Morning Exploring Loop		5292148
 	333390971	Footsteps_DirtyGround_Walk_10	C:\Users\Gustavo\Desktop\TP-Optimizaci-n\TP-Optimización\TP-Optimización_WwiseProject\.cache\7F\{7FBF178A-F120-A10B-390C-F34C080A5170}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Footsteps_DirtyGround_Walk_10		46512
 	685097410	Footsteps_DirtyGround_Walk_09	C:\Users\Gustavo\Desktop\TP-Optimizaci-n\TP-Optimización\TP-Optimización_WwiseProject\.cache\32\{32264299-D222-83E2-D560-E5F2A9E7C499}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Footsteps_DirtyGround_Walk_09		33786
 	776075870	Footsteps_DirtyGround_Walk_06	C:\Users\Gustavo\Desktop\TP-Optimizaci-n\TP-Optimización\TP-Optimización_WwiseProject\.cache\A5\{A522A4CC-F721-E56C-9BE1-32B97C97927B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Footsteps_DirtyGround_Walk_06		38918
+	809223583	Ambiance_Forest_Birds_Loop_Stereo	C:\Users\Gustavo\Desktop\TP-Optimizaci-n\TP-Optimización\TP-Optimización_WwiseProject\.cache\E3\{E3E099A8-B91F-F2D9-1BC7-47F841D0E3BE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance_Forest_Birds_Loop_Stereo		5581068
 	878090387	Footsteps_DirtyGround_Walk_01	C:\Users\Gustavo\Desktop\TP-Optimizaci-n\TP-Optimización\TP-Optimización_WwiseProject\.cache\2E\{2ED3AD2C-4A5F-6F8A-DF07-476B5ED7706B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Footsteps_DirtyGround_Walk_01		34632
 	958105811	Footsteps_DirtyGround_Walk_05	C:\Users\Gustavo\Desktop\TP-Optimizaci-n\TP-Optimización\TP-Optimización_WwiseProject\.cache\57\{5702C143-E436-9C29-FB18-017A3B0F9923}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Footsteps_DirtyGround_Walk_05		34242
 	1069292324	Footsteps_DirtyGround_Walk_07	C:\Users\Gustavo\Desktop\TP-Optimizaci-n\TP-Optimización\TP-Optimización_WwiseProject\.cache\D0\{D0310A46-2D58-6CFD-440A-0E3010A1A8B9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pasos\Footsteps_DirtyGround_Walk_07		38518

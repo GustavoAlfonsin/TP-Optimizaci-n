@@ -22,7 +22,19 @@ public class ControladorTiempo : MonoBehaviour
     public AK.Wwise.Event playMusicEvent;
     public AK.Wwise.Event stopMusicEvent;
 
+    public static ControladorTiempo instance;
 
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
     private void Start()
     {
         esDeNoche = Hora > 18 || Hora <= 6;

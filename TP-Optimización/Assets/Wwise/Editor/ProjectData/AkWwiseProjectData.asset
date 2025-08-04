@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: a46866f258e7254789d797d615a35267
     GuidInternal: 
-    m_lastTime: -8584473494164528519
+    m_lastTime: -8584473382258867900
     List:
     - name: ProyectoAudio
       guid: 06020ef99c56a247a55ae89c9d01c494
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 81d2e6ac2b05284da8fc4c6f4a717ac7
     GuidInternal: 
-    m_lastTime: -8584473494164378189
+    m_lastTime: -8584473382258291689
     List:
     - name: Caminar
       guid: 4dfb12b6a85f71478bdfaa555f0a7aed
@@ -110,6 +110,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: 4dfb12b6a85f71478bdfaa555f0a7aed
       Path: Events\Default Work Unit\Caminar
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Encender_Apagar_Linterna
+      guid: 7af5b9007369c544856634f12274f1e6
+      id: 965259714
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 81d2e6ac2b05284da8fc4c6f4a717ac7
+      - ElementName: Encender_Apagar_Linterna
+        ObjectType: 3
+        guid: 7af5b9007369c544856634f12274f1e6
+      Path: Events\Default Work Unit\Encender_Apagar_Linterna
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -144,6 +161,40 @@ MonoBehaviour:
         ObjectType: 3
         guid: 94f01aa52dd9c341946709e91529a331
       Path: Events\Default Work Unit\MusicaFondoStop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_pajaros
+      guid: d496a48f39d3984aafc286779a0138f1
+      id: 439637824
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 81d2e6ac2b05284da8fc4c6f4a717ac7
+      - ElementName: Play_pajaros
+        ObjectType: 3
+        guid: d496a48f39d3984aafc286779a0138f1
+      Path: Events\Default Work Unit\Play_pajaros
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_pajaros
+      guid: 1a8885c5a939f340bfabacfa8725da3b
+      id: 315820938
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 81d2e6ac2b05284da8fc4c6f4a717ac7
+      - ElementName: Stop_pajaros
+        ObjectType: 3
+        guid: 1a8885c5a939f340bfabacfa8725da3b
+      Path: Events\Default Work Unit\Stop_pajaros
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -204,7 +255,7 @@ MonoBehaviour:
     m_lastTime: -8584475206998669451
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000700000009000000
+  ExpandedWaapiItemIds: 050000000600000007000000090000000d000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

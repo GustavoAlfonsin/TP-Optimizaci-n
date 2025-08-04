@@ -13,6 +13,7 @@ public class MovimientoPersonaje : MonoBehaviour
     [SerializeField] private Light _linterna;
 
     [SerializeField] private AK.Wwise.Event footstepEvent;
+    [SerializeField] private AK.Wwise.Event OnOffLinternaEvent;
     public float stepInterval = 0.4f;
     private float stepTimer = 0;
     private Vector3 movimiento;
@@ -83,6 +84,7 @@ public class MovimientoPersonaje : MonoBehaviour
             {
                 _linterna.enabled = true;
             }
+            OnOffLinternaEvent.Post(gameObject);
         }
     }
 }

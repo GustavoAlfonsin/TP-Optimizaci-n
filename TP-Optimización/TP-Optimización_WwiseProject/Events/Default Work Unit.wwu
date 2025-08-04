@@ -41,6 +41,42 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Encender_Apagar_Linterna" ID="{00B9F57A-6973-44C5-8566-34F12274F1E6}">
+					<ChildrenList>
+						<Action Name="" ID="{32DC99FF-A6F5-4C9E-9D74-5BCEA615CE3E}" ShortID="678739807">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Click_023" ID="{1F6F4EB4-A720-4ABA-98F3-F60D8F14A055}" WorkUnitID="{CC4C47A2-BEBA-4B91-AA7B-37424039D859}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_pajaros" ID="{8FA496D4-D339-4A98-AFC2-86779A0138F1}">
+					<ChildrenList>
+						<Action Name="" ID="{B4A8C9B4-1AA5-435B-AF00-DABABDA7A221}" ShortID="1017702423">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambiance_Forest_Birds_Loop_Stereo" ID="{32BB2C4E-9566-445B-B3D8-BD25DB8A4A12}" WorkUnitID="{CC4C47A2-BEBA-4B91-AA7B-37424039D859}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_pajaros" ID="{C585881A-39A9-40F3-BFAB-ACFA8725DA3B}">
+					<ChildrenList>
+						<Action Name="" ID="{DFE6A4F9-0AF1-435F-8BE5-F1B2DAF0198F}" ShortID="347898939">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambiance_Forest_Birds_Loop_Stereo" ID="{32BB2C4E-9566-445B-B3D8-BD25DB8A4A12}" WorkUnitID="{CC4C47A2-BEBA-4B91-AA7B-37424039D859}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

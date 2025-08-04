@@ -14,8 +14,11 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID CAMINAR = 621083434U;
+        static const AkUniqueID ENCENDER_APAGAR_LINTERNA = 965259714U;
         static const AkUniqueID MUSICADEFONDO = 1677052056U;
         static const AkUniqueID MUSICAFONDOSTOP = 2103939707U;
+        static const AkUniqueID PLAY_PAJAROS = 439637824U;
+        static const AkUniqueID STOP_PAJAROS = 315820938U;
     } // namespace EVENTS
 
     namespace BANKS
