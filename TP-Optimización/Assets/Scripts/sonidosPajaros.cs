@@ -7,12 +7,13 @@ public class sonidosPajaros : MonoBehaviour
     public AK.Wwise.Event playPajarosEvent;
     public AK.Wwise.Event stopPajarosEvent;
 
-    private bool esDeNoche = false;
+    private bool esDeNoche;
     private bool estadoAnterior = false;
 
 
     void Start()
     {
+        esDeNoche = ControladorTiempo.instance.EsDeNoche;
         estadoAnterior = ControladorTiempo.instance.EsDeNoche;
 
         // Si al empezar es de día, reproducimos el sonido

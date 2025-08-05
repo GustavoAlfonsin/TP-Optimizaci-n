@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{F90E0206-569C-47A2-A55A-E89C9D01C494}",
     "Language": "SFX",
-    "Hash": "{FC861278-1EAC-1D24-1C29-930A3E504BA7}",
+    "Hash": "{705A2650-8E58-52D3-3E9F-958DB54913BB}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\ProyectoAudio",
     "ShortName": "ProyectoAudio",
     "Path": "ProyectoAudio.bnk",
@@ -62,6 +62,14 @@
       "Location": "Memory",
       "ShortName": "Click_023.wav",
       "CachePath": "E5/{E5FB8203-09FA-EC51-635D-AC4A478C8E0F}.wem"
+     },
+     {
+      "Id": "195844773",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Misc_Whisper.wav",
+      "CachePath": "E0/{E021A59B-8244-CC67-DD16-59F3B11D0DFF}.wem"
      },
      {
       "Id": "326648028",
@@ -267,6 +275,19 @@
       ]
      },
      {
+      "Id": "1708550700",
+      "Name": "Play_susurros",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_susurros",
+      "GUID": "{C270CE7A-FE54-4A77-9FB2-19DCA322182D}",
+      "MaxAttenuation": "20",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "195844773"
+       }
+      ]
+     },
+     {
       "Id": "315820938",
       "Name": "Stop_pajaros",
       "ObjectPath": "\\Events\\Default Work Unit\\Stop_pajaros",
@@ -285,10 +306,20 @@
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
+     },
+     {
+      "Id": "857735618",
+      "Name": "Stop_susurros",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_susurros",
+      "GUID": "{BFA8C541-AAA5-47CA-8187-C4FF78DE156D}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ]
    }
   ],
-  "FileHash": "{C553E771-9FC2-523F-0E1A-9B862697695B}"
+  "FileHash": "{F32718F3-7205-8B39-43B5-EED8ECCD463F}"
  }
 }

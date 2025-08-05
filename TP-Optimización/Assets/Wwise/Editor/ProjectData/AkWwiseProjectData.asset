@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: a46866f258e7254789d797d615a35267
     GuidInternal: 
-    m_lastTime: -8584472748438196048
+    m_lastTime: -8584471864086645153
     List:
     - name: ProyectoAudio
       guid: 06020ef99c56a247a55ae89c9d01c494
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 81d2e6ac2b05284da8fc4c6f4a717ac7
     GuidInternal: 
-    m_lastTime: -8584472729676346536
+    m_lastTime: -8584471857340551297
     List:
     - name: Caminar
       guid: 4dfb12b6a85f71478bdfaa555f0a7aed
@@ -198,6 +198,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_susurros
+      guid: 7ace70c254fe774a9fb219dca322182d
+      id: 1708550700
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 81d2e6ac2b05284da8fc4c6f4a717ac7
+      - ElementName: Play_susurros
+        ObjectType: 3
+        guid: 7ace70c254fe774a9fb219dca322182d
+      Path: Events\Default Work Unit\Play_susurros
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Stop_pajaros
       guid: 1a8885c5a939f340bfabacfa8725da3b
       id: 315820938
@@ -229,6 +246,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: c6c3b23ba36d164c91ee2ae587be00ce
       Path: Events\Default Work Unit\Stop_sustos
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_susurros
+      guid: 41c5a8bfa5aaca478187c4ff78de156d
+      id: 857735618
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 81d2e6ac2b05284da8fc4c6f4a717ac7
+      - ElementName: Stop_susurros
+        ObjectType: 3
+        guid: 41c5a8bfa5aaca478187c4ff78de156d
+      Path: Events\Default Work Unit\Stop_susurros
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -289,7 +323,7 @@ MonoBehaviour:
     m_lastTime: -8584475206998669451
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 050000000600000007000000090000000d00000022000000
+  ExpandedWaapiItemIds: 050000000600000007000000090000000d0000002200000059000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -119,6 +119,32 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_susurros" ID="{C270CE7A-FE54-4A77-9FB2-19DCA322182D}">
+					<ChildrenList>
+						<Action Name="" ID="{F2A666EE-EDE2-4C4C-A8F2-D65539930024}" ShortID="474917839">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Misc_Whisper" ID="{EF5F628A-AD0A-4F9F-A024-6A6DDE8C0910}" WorkUnitID="{CC4C47A2-BEBA-4B91-AA7B-37424039D859}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_susurros" ID="{BFA8C541-AAA5-47CA-8187-C4FF78DE156D}">
+					<ChildrenList>
+						<Action Name="" ID="{D820A070-17D2-4AE7-BE84-DCE6C8465F19}" ShortID="664768199">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Misc_Whisper" ID="{EF5F628A-AD0A-4F9F-A024-6A6DDE8C0910}" WorkUnitID="{CC4C47A2-BEBA-4B91-AA7B-37424039D859}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

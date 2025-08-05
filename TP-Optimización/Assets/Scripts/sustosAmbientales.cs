@@ -47,9 +47,9 @@ public class sustosAmbientales : MonoBehaviour
         siguienteTiempo = UnityEngine.Random.Range(tiempoMin, tiempoMax);
     }
 
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawSphere(_player.position, radio);
-    }
+    //private void OnDrawGizmos()
+    //{
+    //    Gizmos.color = Color.red;
+    //    Gizmos.DrawSphere(_player.position, radio);
+    //}
 }

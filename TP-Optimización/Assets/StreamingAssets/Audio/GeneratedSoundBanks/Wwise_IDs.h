@@ -19,8 +19,10 @@ namespace AK
         static const AkUniqueID MUSICAFONDOSTOP = 2103939707U;
         static const AkUniqueID PLAY_PAJAROS = 439637824U;
         static const AkUniqueID PLAY_SUSTOS = 3927230193U;
+        static const AkUniqueID PLAY_SUSURROS = 1708550700U;
         static const AkUniqueID STOP_PAJAROS = 315820938U;
         static const AkUniqueID STOP_SUSTOS = 1791125631U;
+        static const AkUniqueID STOP_SUSURROS = 857735618U;
     } // namespace EVENTS
 
     namespace BANKS
