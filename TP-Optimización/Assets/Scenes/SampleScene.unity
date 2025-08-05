@@ -657,8 +657,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Hora: 16
   _sol: {fileID: 410087041}
-  duracionDelDiaEnMinutos: 1
-  duracionDeLaNocheEnMinutos: 5
+  duracionDelDiaEnMinutos: 5
+  duracionDeLaNocheEnMinutos: 10
   nightFogColor: {r: 0, g: 0, b: 0, a: 0}
   playMusicEvent:
     idInternal: 0

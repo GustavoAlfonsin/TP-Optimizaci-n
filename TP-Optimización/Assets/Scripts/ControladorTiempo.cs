@@ -37,7 +37,7 @@ public class ControladorTiempo : MonoBehaviour
     }
     private void Start()
     {
-        esDeNoche = Hora > 18 || Hora <= 6;
+        esDeNoche = Hora > 19 || Hora <= 6;
         estadoAnterior = esDeNoche;
         if (!esDeNoche)
             playMusicEvent.Post(gameObject);
