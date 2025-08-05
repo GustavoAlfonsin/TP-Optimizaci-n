@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{F90E0206-569C-47A2-A55A-E89C9D01C494}",
     "Language": "SFX",
-    "Hash": "{705A2650-8E58-52D3-3E9F-958DB54913BB}",
+    "Hash": "{53333E4E-CE6F-BB57-D8A1-3F887DC900C1}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\ProyectoAudio",
     "ShortName": "ProyectoAudio",
     "Path": "ProyectoAudio.bnk",
@@ -136,6 +136,14 @@
       "CachePath": "A8/{A881CD89-76AD-E668-52DB-7B79B43F8C74}.wem"
      },
      {
+      "Id": "940862101",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambiance_Night_Loop_Stereo.wav",
+      "CachePath": "44/{440A11EA-7073-814C-78E8-FE8442024C23}.wem"
+     },
+     {
       "Id": "958105811",
       "Language": "SFX",
       "Streaming": "false",
@@ -236,17 +244,19 @@
       "Name": "MusicaFondoStop",
       "ObjectPath": "\\Events\\Default Work Unit\\MusicaFondoStop",
       "GUID": "{A51AF094-D92D-41C3-9467-09E91529A331}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "940862101"
+       }
+      ]
      },
      {
       "Id": "439637824",
       "Name": "Play_pajaros",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_pajaros",
       "GUID": "{8FA496D4-D339-4A98-AFC2-86779A0138F1}",
-      "MaxAttenuation": "25",
+      "MaxAttenuation": "20",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -320,6 +330,6 @@
     ]
    }
   ],
-  "FileHash": "{F32718F3-7205-8B39-43B5-EED8ECCD463F}"
+  "FileHash": "{7B3396C9-F91C-EBFE-4F0A-96DA12FC8D72}"
  }
 }

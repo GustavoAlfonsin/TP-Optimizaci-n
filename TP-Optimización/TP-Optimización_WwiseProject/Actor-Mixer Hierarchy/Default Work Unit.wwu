@@ -329,7 +329,7 @@
 							<Custom CreatedFrom="{B5301305-19E9-4462-B85C-601531B57075}">
 								<Attenuation Name="Pajaros (Custom)" ID="{F8D2795E-7171-43BD-A982-2AA4B2F9D40A}" ShortID="987328809">
 									<PropertyList>
-										<Property Name="RadiusMax" Type="Real64" Value="25"/>
+										<Property Name="RadiusMax" Type="Real64" Value="20"/>
 									</PropertyList>
 									<CurveUsageInfoList>
 										<VolumeDryUsage>
@@ -345,7 +345,7 @@
 															<Flags>5</Flags>
 														</Point>
 														<Point>
-															<XPos>25</XPos>
+															<XPos>20</XPos>
 															<YPos>-200</YPos>
 															<Flags>37</Flags>
 														</Point>
@@ -366,7 +366,7 @@
 															<Flags>5</Flags>
 														</Point>
 														<Point>
-															<XPos>25</XPos>
+															<XPos>20</XPos>
 															<YPos>-200</YPos>
 															<Flags>37</Flags>
 														</Point>
@@ -393,7 +393,7 @@
 															<Flags>5</Flags>
 														</Point>
 														<Point>
-															<XPos>25</XPos>
+															<XPos>20</XPos>
 															<YPos>100</YPos>
 															<Flags>37</Flags>
 														</Point>
@@ -611,9 +611,17 @@
 						</Property>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-5</Value>
-							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{9A673A89-2079-4FC2-92DF-86CA8223DAF2}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="10"/>
+											<Property Name="Min" Type="Real64" Value="-4"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
@@ -730,6 +738,42 @@
 					</PositioningInfo>
 					<ActiveSourceList>
 						<ActiveSource Name="Misc_Whisper" ID="{C60B96BB-936D-4684-853B-6D56D6347344}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Ambiance_Night_Loop_Stereo" ID="{9A5854B7-86C3-42B7-9D45-6A34C1B7546C}" ShortID="577670023">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3C20A1B4-79FF-47B0-B924-D1265ACCC130}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{48D23C9E-3C89-4E77-892F-DA38572B30E5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Ambiance_Night_Loop_Stereo" ID="{43D25D3B-FAB6-49BC-9E3D-653F5FFFD3AA}">
+							<PropertyList>
+								<Property Name="CrossfadeDuration" Type="Real64" Value="1500"/>
+								<Property Name="LoopBegin" Type="Real64" Value="2.66943908438067"/>
+								<Property Name="LoopEnd" Type="Real64" Value="26.6562564320765"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Ambiance_Night_Loop_Stereo.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="940862101"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Ambiance_Night_Loop_Stereo" ID="{43D25D3B-FAB6-49BC-9E3D-653F5FFFD3AA}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

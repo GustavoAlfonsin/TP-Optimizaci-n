@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: a46866f258e7254789d797d615a35267
     GuidInternal: 
-    m_lastTime: -8584471864086645153
+    m_lastTime: -8584471768261171719
     List:
     - name: ProyectoAudio
       guid: 06020ef99c56a247a55ae89c9d01c494
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 81d2e6ac2b05284da8fc4c6f4a717ac7
     GuidInternal: 
-    m_lastTime: -8584471857340551297
+    m_lastTime: -8584471739223409566
     List:
     - name: Caminar
       guid: 4dfb12b6a85f71478bdfaa555f0a7aed
@@ -323,7 +323,7 @@ MonoBehaviour:
     m_lastTime: -8584475206998669451
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 050000000600000007000000090000000d0000002200000059000000
+  ExpandedWaapiItemIds: 0500000006000000090000000d0000002200000059000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

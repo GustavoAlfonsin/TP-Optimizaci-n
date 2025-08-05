@@ -19,6 +19,18 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{167902BF-F57C-4423-88CC-D825B68C198F}" ShortID="282637480">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambiance_Night_Loop_Stereo" ID="{9A5854B7-86C3-42B7-9D45-6A34C1B7546C}" WorkUnitID="{CC4C47A2-BEBA-4B91-AA7B-37424039D859}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Caminar" ID="{B612FB4D-5FA8-4771-8BDF-AA555F0A7AED}">
@@ -37,7 +49,7 @@
 						<Action Name="" ID="{D928FE89-7B64-40B3-B439-228A79E0D9A5}" ShortID="171364200">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="Delay" Type="Real64" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="1"/>
 								<Property Name="FadeTime" Type="Real64" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
@@ -53,6 +65,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="AmbientNatureOutside" ID="{F6A37277-AE04-4A7C-B767-72EC617CEB0A}" WorkUnitID="{CC4C47A2-BEBA-4B91-AA7B-37424039D859}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{90A231F1-D229-4F94-993A-E43816162EF2}" ShortID="68769412">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1.5"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambiance_Night_Loop_Stereo" ID="{9A5854B7-86C3-42B7-9D45-6A34C1B7546C}" WorkUnitID="{CC4C47A2-BEBA-4B91-AA7B-37424039D859}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

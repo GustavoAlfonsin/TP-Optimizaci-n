@@ -74,7 +74,7 @@ public class MovimientoPersonaje : MonoBehaviour
 
     private void prenderYApagarLinterna()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse1))
+        if (Input.GetKeyDown(KeyCode.Mouse1) && ControladorTiempo.instance.EsDeNoche)
         {
             if (_linterna.enabled)
             {
