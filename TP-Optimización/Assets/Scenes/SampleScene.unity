@@ -655,7 +655,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a07995ff1b9aee441b93175d27f766de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hora: 16
+  Hora: 17
   _sol: {fileID: 410087041}
   duracionDelDiaEnMinutos: 5
   duracionDeLaNocheEnMinutos: 10
